@@ -29,7 +29,7 @@ ul {
 }
 
 .rock-image {
-    background: url("Users/neenamitchell/Final-Project%20copy/Assets/images/college-band-concert-1024x576.jpg") no-repeat center center fixed;
+    background: url("../images/college-band-concert-1024x576.jpg") no-repeat center center fixed;
     min-height: 100vh;
     background-size: cover;
     display: flex;
