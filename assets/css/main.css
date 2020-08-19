@@ -22,7 +22,7 @@ header h1{
 li {
     list-style: none;
     padding: 10px;
-}S
+}
 
 ul {
     padding: 0px;
@@ -61,6 +61,26 @@ article, .sidebar-widget{
 
 }
 
+article > header {
+    background: #9900ff;
+}
+
+img {
+    width: 100%;
+}
+
+i {
+   margin:  0 5px;
+}
+
+a:hover {
+    color: blue;
+}
+
+td:nth-child(2) {
+    padding-left: 30px;
+}
+
 @media (min-width: 1000px) {
     body {
         max-width: 1600px;
@@ -85,5 +105,23 @@ article, .sidebar-widget{
 
    header nav {
        text-align: right;
+   }
+
+   /* blog */
+   .wrapper {
+    flex-direction: row;       
+   }
+
+   main {
+       flex: 3;
+   }
+
+   aside {
+       flex: 1;
+       margin-left: 15px;
+   }
+
+   article > header {
+        justify-content: space-between;       
    }
 }

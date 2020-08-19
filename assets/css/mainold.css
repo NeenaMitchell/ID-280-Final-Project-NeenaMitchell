@@ -61,6 +61,18 @@ article, .sidebar-widget{
 
 }
 
+article > header {
+    background: #9900ff;
+}
+
+img {
+    width: 100%;
+}
+
+i{
+    margin: 0 5px;
+}
+
 @media (min-width: 1000px) {
     body {
         max-width: 1600px;
